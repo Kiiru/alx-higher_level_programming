@@ -1,8 +1,9 @@
-#! /usr/bin/python3
+#!/usr/bin/python3
+"""
+Python more classes.
+"""
 
-"""
-Python more classes
-"""
+
 class Rectangle:
     """
     Hopefully we will add attributes
