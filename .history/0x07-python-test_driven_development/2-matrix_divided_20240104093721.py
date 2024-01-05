@@ -18,17 +18,12 @@ def matrix_divided(matrix, div):
     
     if not check_matrix_rows(matrix):
         raise TypeError('Each row of the matrix must have the same size')
-    nMatrix = []
     for item in matrix:
         row = []
         for nItem in item:
             if not isinstance(nItem, (int, float)):
-                raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
-            val = round(nItem / div, 2)
-            row.append(val)
-        nMatrix.append(row)
-    return nMatrix
-
+                raise TypeError('a must be an integer')
+    
 def check_matrix_rows(matrix):
     """ Check Matrix rows function
 
