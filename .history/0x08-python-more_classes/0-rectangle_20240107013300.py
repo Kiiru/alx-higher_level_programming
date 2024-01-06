@@ -2,6 +2,7 @@
 """
 Python more classes.
 """
+
 class Rectangle:
     """
     Hopefully we will add attributes
