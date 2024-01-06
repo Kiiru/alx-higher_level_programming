@@ -4,6 +4,6 @@ Python more classes.
 """
 class Rectangle:
     """
-    class Rectangle
+    class
     """
     pass
