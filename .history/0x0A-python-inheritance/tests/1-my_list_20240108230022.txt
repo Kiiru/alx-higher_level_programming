@@ -1,4 +1,4 @@
-1-my_list.txt module
+1.txt module
 ====================
 
 Importing the class from the module:
