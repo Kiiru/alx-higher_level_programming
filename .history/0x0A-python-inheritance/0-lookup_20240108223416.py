@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""function that returns the list of available attributes and methods of an object"""
-
+"""function that returns the list
+ of available attributes and methods of an object"""
 def lookup(obj):
-    """function: lookup 
+    """lookup function
+
     Args:
         obj: object
+
     Returns:
         a list object
     """
