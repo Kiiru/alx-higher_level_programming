@@ -1,0 +1,23 @@
+7-base_geometry.txt
+===================
+
+Importing the class from the module
+>>> baseGeometry = __import__("7-base_geometry").BaseGeometry
+
+Check for module docstring
+>>> m = __import__("7-base_geometry").__doc__
+>>> len(m) > 1
+True
+
+Check for class docstring
+>>> c = __import__("7-base_geometry").BaseGeometry.__doc__
+>>> len(c) > 1
+True
+
+Check for method docstring
+>>> f = __import__("7-base_geometry").BaseGeometry.integer_validator.__doc__
+>>> len(f) > 1
+True
+
+Check given test cases
+>>> baseGeometry

@@ -1,0 +1,5 @@
+7-base_geometry.txt
+===================
+
+Importing the class from the module
+>>> BaseGeometry = __import__(")
