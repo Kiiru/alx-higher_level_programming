@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 def add_attribute(*args):
-    """function: add_attribute
-            Args: 
-                *args
-            Returns:
-                nothing
-            """
+    """function: """
     if "main" in str(type(args[0])):
         setattr(args[0], args[1], args[2])
     else:

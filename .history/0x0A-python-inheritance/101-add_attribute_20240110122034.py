@@ -4,7 +4,7 @@ def add_attribute(*args):
             Args: 
                 *args
             Returns:
-                nothing
+                
             """
     if "main" in str(type(args[0])):
         setattr(args[0], args[1], args[2])
