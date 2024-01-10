@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""module BaseGeometry."""
+"""module Rectangle"""
+
 class BaseGeometry:
     """ Class: BaseGeometry """
     def area(self):
@@ -24,3 +25,12 @@ class BaseGeometry:
             raise TypeError('{} must be an integer'.format(name))
         if value <= 0:
             raise ValueError('{:s} must be greater than 0'.format(name))
+        
+
+class Rectangle(BaseGeometry):
+
+    def __init__(self, width, height):
+        super().integer_validator("width", width)
+        super().integer_validator()
+        Rectangle.__width = width
+        Rectangle.__height = height

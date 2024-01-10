@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""module BaseGeometry."""
+"""module BaseGeometry class."""
 class BaseGeometry:
     """ Class: BaseGeometry """
     def area(self):
