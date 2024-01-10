@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" more modules and functions """
+""""""
 def add_attribute(*args):
     """function: add_attribute
             Args: 
