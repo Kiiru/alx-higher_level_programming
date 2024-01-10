@@ -4,8 +4,8 @@ more class base
 """
 
 class MyInt(int):
-    """Class MyInt"""
     def __init__(self, num):
+        super().__init__(self)
         self.num = num
 
     def __eq__(self, value):

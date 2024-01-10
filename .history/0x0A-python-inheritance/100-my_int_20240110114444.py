@@ -4,7 +4,7 @@ more class base
 """
 
 class MyInt(int):
-    """Class MyInt"""
+    """class """
     def __init__(self, num):
         self.num = num
 

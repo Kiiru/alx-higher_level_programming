@@ -4,14 +4,14 @@ more class base
 """
 
 class MyInt(int):
-    """Class MyInt"""
     def __init__(self, num):
+        super().__init__(self, num)
         self.num = num
 
-    def __eq__(self, value):
+    def __eq__(self, other):
         """ Invert the behavior of == """
-        return self.num != value
+        return not super().__eq__(other)
 
-    def __ne__(self, value):
+    def __ne__(self, other):
         """ Invert the behavior of != """
-        return self.num == value
+        return not super().__ne__(other)
