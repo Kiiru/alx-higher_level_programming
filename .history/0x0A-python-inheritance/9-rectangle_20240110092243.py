@@ -10,10 +10,10 @@ class Rectangle(BaseGeometry):
                     width: width of a rectangle
                     height: height of a rectangle
         """
+        BaseGeometry.integer_validator("width", width)
+        BaseGeometry().integer_validator("height", height)
         self.__width = width
         self.__height = height
-        BaseGeometry.integer_validator(self, "width", self.__width)
-        BaseGeometry.integer_validator(self, "height", self.__height)
 
     def area(self):
         """function: area
