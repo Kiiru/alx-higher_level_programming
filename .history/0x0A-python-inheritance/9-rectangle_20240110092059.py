@@ -7,8 +7,7 @@ class Rectangle(BaseGeometry):
     def __init__(self, width, height):
         """function: __init__
                 Args:
-                    width: width of a rectangle
-                    height: height of a rectangle
+                    width
         """
         super().integer_validator("width", width)
         super().integer_validator("height", height)
