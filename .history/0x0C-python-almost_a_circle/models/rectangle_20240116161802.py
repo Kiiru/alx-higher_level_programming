@@ -8,6 +8,10 @@ from models.base import Base
 class Rectangle(Base):
     '''Class: Rectangle
         inherits base'''
+    __width = 0
+    __height = 0
+    __x = 0
+    __y = 0
 
     def __init__(self, width, height, x = 0, y = 0, id = None):
         '''method __init__ initializes a rectangle'''
@@ -63,12 +67,3 @@ class Rectangle(Base):
     def y(self):
         '''y getter'''
         return self.__y
-    
-    @y.setter
-    def y(self, val):
-        '''set y'''
-        if type(val) is not int:
-            raise TypeError('y must be an integer')
-        if val < 0:
-            raise ValueError('y must be > 0')
-        self.__y = val
