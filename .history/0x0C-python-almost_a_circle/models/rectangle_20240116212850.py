@@ -95,6 +95,4 @@ class Rectangle(Base):
                 print('#', end='')
             print('')
     
-    def __str__(self):
-        '''overide __str__ function'''
-        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y, self.__width, self.__height)
+    def __str__(self)
