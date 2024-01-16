@@ -100,12 +100,4 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y, self.__width, self.__height)
     
     def display(self):
-        '''function display. Print the rectangle using #'''
-        if self.__width == 0 or self.__height == 0:
-            print('')
-            return
-        [print("") for y in range(self.__y)]
-        for h in range(self.__height):
-            [print(" ", end="") for x in range(self.__x)]
-            [print("#", end="") for w in range(self.__width)]
-            print("")
+        '''function display. '''
