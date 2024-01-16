@@ -91,6 +91,4 @@ class Rectangle(Base):
     def display(self):
         '''function display - prints the rectangle to stdio with #'''
         for height in range(self.__height):
-            for width in range(self.__width):
-                print('#', end='')
-            print('')
+            for width in range(self.__)
