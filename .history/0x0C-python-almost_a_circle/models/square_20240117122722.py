@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' Square model
+''' Rectangle model
 '''
 
 from models.rectangle import Rectangle
@@ -34,5 +34,3 @@ class Square(Rectangle):
             raise TypeError('width must be an integer')
         if value < 0:
             raise ValueError('width must be > 0')
-        self.width = value
-        self.height = value

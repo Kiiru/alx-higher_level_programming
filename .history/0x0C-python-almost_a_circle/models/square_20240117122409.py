@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' Square model
+''' Rectangle model
 '''
 
 from models.rectangle import Rectangle
@@ -21,18 +21,4 @@ class Square(Rectangle):
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.width)
     
     @property
-    def size(self):
-        '''size getter property'''
-        return self.width
-    
-    @size.setter
-    def size(self, value):
-        '''function: size setter
-            Arguments:
-                size: int'''
-        if type(value) is not int:
-            raise TypeError('width must be an integer')
-        if value < 0:
-            raise ValueError('width must be > 0')
-        self.width = value
-        self.height = value
+    def size
