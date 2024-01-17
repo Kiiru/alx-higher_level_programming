@@ -121,16 +121,16 @@ class Rectangle(Base):
                 - 4th argument is the x attribute
                 - 5th argument is the y attribute
         '''
-        if args and len(args):
-            for index, value in enumerate(args):
-                if args[index] is not None:
-                    if index == 0:
-                        self.id = value
-                    if index == 1:
-                        self.width = value
-                    if index == 2:
-                        self.height = value
-                    if index == 3:
-                        self.x = value
-                    if index == 4:
-                        self.y = value
+        if args and len
+        for index, value in enumerate(args):
+            if args[index] is not None:
+                if index == 0:
+                    self.id = value
+                if index == 1:
+                    self.width = value
+                if index == 2:
+                    self.height = value
+                if index == 3:
+                    self.x = value
+                if index == 4:
+                    self.y = value
