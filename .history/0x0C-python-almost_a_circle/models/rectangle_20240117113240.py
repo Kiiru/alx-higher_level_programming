@@ -136,4 +136,4 @@ class Rectangle(Base):
                         self.y = value
         elif kwargs is not None:
             for key, value in kwargs.items():
-                setattr(self, key, value)
+                set

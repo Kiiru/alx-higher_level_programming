@@ -134,6 +134,4 @@ class Rectangle(Base):
                         self.x = value
                     if index == 4:
                         self.y = value
-        elif kwargs is not None:
-            for key, value in kwargs.items():
-                setattr(self, key, value)
+        elif kwargs is not N
