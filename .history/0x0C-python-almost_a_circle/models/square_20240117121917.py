@@ -11,7 +11,7 @@ class Square(Rectangle):
         '''method __init__ initializes a square
         Args:
             size (int): The width of the new Square
-            x (int): The x coordinate of the new Square.
+            x (int): The x coordinate of the new Rectangle.
             y (int): The y coordinate of the new Rectangle.
             id (int): The identity of the new Rectangle.'''
         super().__init__(size, size, x, y, id)

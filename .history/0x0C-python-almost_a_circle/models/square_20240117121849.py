@@ -8,10 +8,11 @@ class Square(Rectangle):
     '''Class: Square
         inherits Rectangle'''
     def __init__(self, size, x=0, y=0, id=None):
-        '''method __init__ initializes a square
+        '''method __init__ initializes a rectangle
         Args:
-            size (int): The width of the new Square
-            x (int): The x coordinate of the new Square.
+            width (int): The width of the new Rectangle.
+            height (int): The height of the new Rectangle.
+            x (int): The x coordinate of the new Rectangle.
             y (int): The y coordinate of the new Rectangle.
             id (int): The identity of the new Rectangle.'''
         super().__init__(size, size, x, y, id)
