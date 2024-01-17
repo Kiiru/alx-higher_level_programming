@@ -23,8 +23,7 @@ class Base:
         '''function: to_json_string
             Args:
                 list_dictionaries: list of dictionaries
-            Returns:
-                Json string'''
+            Returns'''
         if list_dictionaries is None or not list_dictionaries:
             return '[]'
         return json.dumps(list_dictionaries)
