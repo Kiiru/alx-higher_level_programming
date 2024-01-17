@@ -50,9 +50,9 @@ class Square(Rectangle):
                         self.id = value
                     if index == 1:
                         self.size = value
-                    if index == 2:
-                        self.x = value
                     if index == 3:
+                        self.x = value
+                    if index == 4:
                         self.y = value
         elif kwargs is not None:
             for key, value in kwargs.items():

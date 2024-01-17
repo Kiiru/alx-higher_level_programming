@@ -33,27 +33,4 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-    def update(self, *args, **kwargs):
-        '''Update a Rectangle.
-        
-        Args:
-            *args (ints): New attribute values.
-                - 1st argument is the id attribute
-                - 2nd argument is the size attribute
-                - 3rd argument is the x attribute
-                - 4th argument is the y attribute
-        '''
-        if args and len(args):
-            for index, value in enumerate(args):
-                if args[index] is not None:
-                    if index == 0:
-                        self.id = value
-                    if index == 1:
-                        self.size = value
-                    if index == 2:
-                        self.x = value
-                    if index == 3:
-                        self.y = value
-        elif kwargs is not None:
-            for key, value in kwargs.items():
-                setattr(self, key, value)
+    def update(self, *args, **kwargs)

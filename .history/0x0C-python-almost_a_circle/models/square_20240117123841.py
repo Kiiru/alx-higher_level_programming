@@ -39,9 +39,10 @@ class Square(Rectangle):
         Args:
             *args (ints): New attribute values.
                 - 1st argument is the id attribute
-                - 2nd argument is the size attribute
-                - 3rd argument is the x attribute
-                - 4th argument is the y attribute
+                - 2nd argument is the width attribute
+                - 3rd argument is the height attribute
+                - 4th argument is the x attribute
+                - 5th argument is the y attribute
         '''
         if args and len(args):
             for index, value in enumerate(args):
@@ -49,10 +50,12 @@ class Square(Rectangle):
                     if index == 0:
                         self.id = value
                     if index == 1:
-                        self.size = value
+                        self.width = value
                     if index == 2:
-                        self.x = value
+                        self.height = value
                     if index == 3:
+                        self.x = value
+                    if index == 4:
                         self.y = value
         elif kwargs is not None:
             for key, value in kwargs.items():
