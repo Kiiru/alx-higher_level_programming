@@ -140,11 +140,4 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         '''function: to_dictionary
-            returns the dictionary representation of the Rectangle object'''
-        return {
-            'id': self.id,
-            'width': self.width,
-            'height': self.height,
-            'x': self.x,
-            'y': self.y
-        }
+            returns the dictionary representation of a rectangle'''
