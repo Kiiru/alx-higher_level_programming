@@ -1,5 +1,5 @@
 -- a script that creates a table second_table in the database hbtn_0c_0 and add multiples rows.
-CREATE TABLE second_table (
+CREATE TABLE IF NOT EXISTS second_table (
 	id INTEGER,
 	name VARCHAR(256),
 	score INTEGER
